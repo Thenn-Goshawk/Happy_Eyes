@@ -1,72 +1,52 @@
-# Happy_Eyes 👀
+# Happy Eyes 👁️✨
 
-A Python-based computer vision and image processing project for analyzing visual data and eye-related features.
-
-## Overview
-
-Happy_Eyes is a Python project designed to explore and develop tools for visual data analysis. The project includes design documentation and organized code structure for image processing and analysis tasks.
-
-## Repository Structure
-
-```
-Happy_Eyes/
-├── src/              # Source code modules
-├── imgs/             # Image files and samples
-├── res/              # Resources and data files
-├── high_level_design.bmp  # Project architecture diagram
-└── .gitignore
-```
-
-## Features
-
-- Image processing and analysis tools
-- Computer vision capabilities
-- Well-structured codebase with organized modules
-- Design documentation for project architecture
-
-## Requirements
-
-- Python 3.7 or higher
-- Dependencies listed in `requirements.txt` (if applicable)
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Thenn-Goshawk/Happy_Eyes.git
-cd Happy_Eyes
-
-# Install dependencies (if requirements.txt exists)
-pip install -r requirements.txt
-```
-
-## Usage
-
-[Add specific usage instructions and examples once code is reviewed]
-
-```python
-# Example usage coming soon
-```
-
-## Project Architecture
-
-See `high_level_design.bmp` for a visual overview of the project architecture.
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Submit pull requests
-- Open issues for bugs or feature requests
-- Suggest improvements
-
-## License
-
-This project is currently unlicensed. Consider adding a license from [choosealicense.com](https://choosealicense.com/).
-
-## Author
-
-[Thenn-Goshawk](https://github.com/Thenn-Goshawk)
+**Happy Eyes** is a desktop wellness application designed for Windows that helps prevent Digital Eye Strain (DES) and computer vision syndrome. By automating the proven **20-20-20 rule**, Happy Eyes ensures your eyes get the regular rest they need to stay healthy, focused, and fatigue-free during long sessions in front of the screen.
 
 ---
 
-**Last Updated**: December 2024
+## 💡 The Problem & The Solution
+
+Spending long, uninterrupted hours staring at digital screens reduces our blink rate by up to 50%, leading to dry eyes, blurred vision, headaches, and physical fatigue. 
+
+The globally recognized **20-20-20 rule** is an effective countermeasure:
+> *Every **20 minutes**, look at something at least **20 feet** away for at least **20 seconds**.*
+
+**Happy Eyes** acts as your personal health companion, running unobtrusively in the background to ensure you never forget to take these critical micro-breaks.
+
+---
+
+## 🚀 Features
+
+### Current Release
+* **Automated 20-20-20 Reminders:** Precision timers running every 20 minutes to prompt you to look away.
+* **Streamlined Windows Desktop Integration:** Built natively for Windows PCs to run efficiently without draining system resources.
+* **Unobtrusive UX:** Clean, minimalist notifications that pause your workflow gracefully without causing frustration.
+
+### 🔮 Future Roadmap (Smart Wellness)
+We are actively working on evolving Happy Eyes from a static timer into an intelligent, adaptive health assistant:
+* **AI-Powered Face Detection:** Integrating lightweight, privacy-focused computer vision models to track user presence and eye blink rates.
+* **Fatigue Analysis:** Real-time detection of squinting, prolonged staring, or signs of fatigue.
+* **Dynamic Smart Scheduling:** Instead of a rigid 20-minute clock, the app will dynamically compress or expand break intervals based on your actual visual fatigue levels to optimize both eye health and productivity.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Platform:** Windows PC
+* **Core Application:** [Insert core language/framework, e.g., C# / .NET / Python + PySide]
+* **Future AI Engine:** Python, OpenCV, and lightweight deep learning inference models for real-time face and fatigue detection.
+
+---
+
+## 📦 Installation & Getting Started
+
+*(Update this section with your specific build or execution instructions)*
+
+### Prerequisites
+* Windows 10 or 11
+
+### Running from Source
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Thenn-Goshawk/Happy_Eyes.git](https://github.com/Thenn-Goshawk/Happy_Eyes.git)
+   cd Happy_Eyes

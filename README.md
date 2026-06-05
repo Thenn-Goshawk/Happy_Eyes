@@ -33,20 +33,9 @@ We are actively working on evolving Happy Eyes from a static timer into an intel
 ## 🛠️ Tech Stack & Architecture
 
 * **Platform:** Windows PC
-* **Core Application:** [Insert core language/framework, e.g., C# / .NET / Python + PySide]
+* **Core Application:** Python, Wintoast library
 * **Future AI Engine:** Python, OpenCV, and lightweight deep learning inference models for real-time face and fatigue detection.
 
 ---
 
-## 📦 Installation & Getting Started
 
-*(Update this section with your specific build or execution instructions)*
-
-### Prerequisites
-* Windows 10 or 11
-
-### Running from Source
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/Thenn-Goshawk/Happy_Eyes.git](https://github.com/Thenn-Goshawk/Happy_Eyes.git)
-   cd Happy_Eyes
